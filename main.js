@@ -23,6 +23,32 @@ let number;
 // console.log(string.slice(0, 4))
 
 //Change this string into a number “45”
+
+/*
 string = "45"
 number = parseFloat(string)
 console.log(number)
+*/
+
+
+// let arr = ['red', 'yellow', 'green', 'blue']
+
+// console.log(arr[0]);
+// console.log(arr[arr.length-1]);
+// arr.push('orange')
+// console.log(arr[2]);
+// console.log(arr)
+
+
+// let arr = [23123, 2, -328, 0]
+// arr.sort();
+
+
+// console.log(arr[0])
+
+
+function journey(country, time, location = "London"){
+    return `I am going on a ${time} hour flight from ${location} to ${country}`
+}
+
+console.log(journey("Japan", 10))
